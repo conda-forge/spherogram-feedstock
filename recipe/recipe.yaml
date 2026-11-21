@@ -13,7 +13,7 @@ source:
   sha256: 9351a77308fee452421b914ae55f3cdaff805692b834777aa6a034a9a85bf970
 
 build:
-  number: 0
+  number: 1
   script:
     # Remove pre-generated Cython output so it is regenerated with conda-forge's Cython
     - if: win
